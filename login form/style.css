@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+header .password{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #000;
+    
+}
+header .password .logwords{
+    padding-left: 20px;
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    background-color: seashell;
+
+}
+header  p{
+    color: black;
+}
+header .files{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #000;
+    
+}
+header .files .file{
+    padding-left: 20px;
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    background-color: seashell;
+
+}
+header p:nth-child(3),a{
+    text-decoration: none;
+    color: red;
+}
